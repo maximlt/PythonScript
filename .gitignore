@@ -1,0 +1,7 @@
+build
+.vscode
+dev.txt
+environment.yml
+*\.ipynb_checkpoints
+__pycache__/
+TODOs.txt

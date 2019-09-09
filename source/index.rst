@@ -32,7 +32,16 @@ suivante:
 gratuits et open-source**. Leurs auteurs et contributeurs sont remerciés
 pour l'ensemble de leur travail.
 
-Le tutoriel est disponible à l'adresse suivante:
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenu du tutoriel
 
-`https://pythonscript.readthedocs.io/en/latest/ <https://pythonscript.readthedocs.io/en/latest/>`_
+   introduction
+   environnement
+   installation
+   python
+   utilisation
+   exercices
+
+
 

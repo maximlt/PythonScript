@@ -2,6 +2,7 @@ Découverte de Python
 ====================
 
 Ce chapitre contient deux notebooks principaux:
+
 * Introduction pas à pas de Python
 * Numpy, pandas et Matplotlib en express
 
@@ -13,7 +14,7 @@ Elle contient plus d'explications et aborde des concepts
 supplémentaires.
 
 Les trois notebooks sont téléchargeables en scripts Python
-(``.py``) `ici <https://github.com/maximlt/PythonScript/tree/master/pyscripts>`_.
+(extension ``.py``) `ici <https://github.com/maximlt/PythonScript/tree/master/pyscripts>`_.
 Les cellules initiales des notebooks sont reproduites
 dans les fichiers ``.py``, leur début est marqué par
 le symbole ``# %%``. Lorsqu'on ouvre ces fichiers dans *Spyder*, on

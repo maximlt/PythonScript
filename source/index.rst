@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Guide: Comment s'y prendre pour écrire des scripts en Python
-============================================================
+Tutoriel: Comment s'y prendre pour écrire des scripts en Python
+===============================================================
 
 **Python** est un langage de programmation avec lequel il est facile d'écrire
 des scripts. Ces scripts peuvent permettre d'automatiser des tâches répétées
@@ -34,7 +34,7 @@ pour l'ensemble de leur travail.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contenu:
+   :caption: Contenu du tutoriel
 
    introduction
    environnement
@@ -43,9 +43,3 @@ pour l'ensemble de leur travail.
    utilisation
    exercices
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

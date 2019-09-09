@@ -29,7 +29,7 @@ de 6 paramètres du culvert: type, diameter, length, manning,
 upstream chainage, upstream invert.
 La cinquième ligne marque la fin du bloc de définition.
 
-Le fichier log peut être téléchargé `Link ici <https://github.com/maximlt/PythonScript/exercices>`_.
+Le fichier log peut être téléchargé `ici <https://github.com/maximlt/PythonScript/tree/master/exercices>`_.
 
 Deux scripts sont à créer. Le premier s'occupera de:
 
@@ -51,3 +51,5 @@ Le deuxième script s'occupera de:
   en fonction des paramètres *upstream chainage* et *length*
 * enregistrer les données (incluant les données transformées et 
   les données ajoutées) dans un fichier au format CSV
+
+Une solution à l'exercice est proposée `ici <https://github.com/maximlt/PythonScript/tree/master/exercices/solution>`_.

@@ -29,17 +29,17 @@ créer nos propres outils et venir compléter notre suite initiale
 d'outils. De cette manière, on limitera le temps passé à réaliser 
 des tâches répétitives.
 
-Le langage qui va être utilisé dans ce tutoriel est `Python`, 
+Le langage qui va être utilisé dans ce tutoriel est ``Python``, 
 mais ce n'est pas le seul qu'on pourrait utiliser. On peut
-bien sûr mentionner `VBA` (dans *Excel*), ou encore le 
-langage `R` qui est bien pratique lorsqu'il s'agit de faire
+bien sûr mentionner ``VBA`` (dans *Excel*), ou encore le 
+langage ``R`` qui est bien pratique lorsqu'il s'agit de faire
 des statistiques.
 
 Python
 ------
 
-`Python` est un langage informatique qui a été conçu par
-Guido van Rossum en (TODO:ANNEES). C'est un langage très polyvalent.
+``Python`` est un langage informatique qui a été conçu par
+Guido van Rossum en 1990. C'est un langage très polyvalent.
 Il est depuis des années très présent dans le *Web*
 (*Dropbox*, *Instagram*, etc.) et
 est récemment devenu le langage de la *data science*. Sa forte popularité
@@ -54,26 +54,26 @@ La popularité du langage a des effets secondaires intéressants: la
 documentation (tutoriels, vidéos, etc.) disponible sur internet 
 est incomparable, toutes nos questions vont trouver réponse.
 
-`Python` est un langage interprété. Cela signifie qu'il n'y 
+``Python`` est un langage **interprété**. Cela signifie qu'il n'y 
 a pas besoin de le compiler (créer un .exe) pour exécuter du 
 code. On peut donc tester très rapidement un bout de code pour 
 voir s'il s'exécute rapidement. Ce cycle court favorise
 l'apprentissage du code.
 
-`Python` est un langage de haut niveau et un langage dynamiquement
-typé, pour résumer, il travaille beaucoup pour nous et nous évite
+``Python`` est un langage de **haut niveau** et un langage **dynamiquement
+typé**, pour résumer, il travaille beaucoup pour nous et nous évite
 d'écrire beaucoup de code superflu, on peut aller droit à l'essentiel.
 
-`Python` ne désigne en fait qu'un langage, défini par un vocabulaire et 
-tout un lot de règles. `Python` lui-même est écrit dans un autre 
+``Python`` ne désigne en fait qu'un langage, défini par un vocabulaire et 
+tout un lot de règles. ``Python`` lui-même est écrit dans un autre 
 langage de programmation, le langage `C`. L'implémentation
-de `Python` en `C` est nommée `CPython`. Il s'agit de
+de ``Python`` en ``C`` est nommée `CPython`. Il s'agit de
 l'implémentation la plus utilisée 
 et c'est celle qui sera utilisée dans ce tutoriel.
 
-Au cours du temps, les utilisateurs de `Python` ont construit 
+Au cours du temps, les utilisateurs de ``Python`` ont construit 
 beaucoup de packages codés dans ce langage. Le langage étant gratuit 
-et open-source, on retrouve beaucoup d'outils `Python` qui sont 
+et open-source, on retrouve beaucoup d'outils ``Python`` qui sont 
 aussi gratuits et open-source. Le site `PyPi <https://pypi.org/>`_
 héberge des milliers et des milliers de ces outils, qui sont appelés
 **packages**. Etant donné
@@ -99,24 +99,50 @@ fichier texte. On peut écrire un script qui va:
 * ...
 
 Comme on peut le voir, toutes ces tâches peuvent être réalisées
-manuellement. Mais on peut aussi toutes le programmer en `Python`!
+manuellement. Mais on peut aussi toutes le programmer en ``Python``!
 
-Contenu
--------
+Contenu du tutoriel
+-------------------
 
 Environnement de travail
 ************************
 
 > Où enregistrer son code? Comment installer un package?
-> Comment exécuter un script`?
+> Comment avoir plusieurs versions de ``Python``?
 
 Toutes ces questions peuvent se poser même lorsqu'on sait coder
-en `Python`. La configuration d'un environnement de 
+en ``Python``. La configuration d'un environnement de 
 travail, constitué de logiciels supports, permet d'adresser
 chacune de ces questions.
 
-Python pas à pas
-****************
+Installation
+************
 
-TODO
+Une méthode est proposée pour installer les programmes
+nécessaires à l'écriture de scripts en  ``Python``.
 
+Découverte de Python
+********************
+
+Ici ``Python`` est introduit rapidement. Ses concepts
+les plus abordables sont présentés, spécialement ceux
+qui peuvent être utiles pour écrire un simple script.
+
+Les librairies ``Numpy``, ``pandas`` et
+``Matplotlib``, incontournables dans l'écosystème
+scientifique de Python, sont aussi rapidement introduites.
+
+Ecriture et exécution d'un script
+*********************************
+
+Ici on présente où est-ce qu'on peut écrire un script
+en ``Python``, et comment l'exécuter. Cette dernière
+tâche n'est pas aussi facile qu'exécuter un fichier
+``.exe`` sur *Windows*.
+
+Exercice
+********
+
+Un exercice d'application est proposé afin d'utiliser
+les outils présentés dans le tutoriel ainsi que les
+concepts du langage et certaines de ses librairies.

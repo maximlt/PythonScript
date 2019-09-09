@@ -1,5 +1,5 @@
-Ecriture et exécution d'un script Python
-========================================
+Ecriture et exécution d'un script
+=================================
 
 Le style
 --------

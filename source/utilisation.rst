@@ -1,5 +1,5 @@
-Ecriture et exécution d'un script
-=================================
+Écriture et exécution d'un script
+==================================
 
 Le style
 --------
@@ -7,16 +7,14 @@ Le style
 Commenter
 *********
 
-Commenter son code est **vraiment important**.
-Il faut être concentré pour écrire du code, on doit assembler
-les pièces d'un puzzle assez complexe. A ce moment-là, on a
-une très bonne compréhension du code. Mais un drame se trame,
-car un jour/une semaine/un mois plus tard, tout est oublié.
-Commenter son code, **c'est avant tout se rendre un fier service**.
+Commenter son code est **essentiel**. Cela permettra aux personnes liront 
+le code de mieux le comprendre (pour le modifier par exemple) et
+cela permettra aussi à l'auteur du code de se rappeler plus rapidement des spécificités de celui-ci.
+Commenter son code c'est donc **avant tout se rendre service** pour éviter de perdre du temps plus tard.
 
-Lorsqu'on écrit un script, la première chose qu'on doit faire est
-de le commenter. Avant même l'écriture d'une seule ligne de code.
-Cela pourrait ressembler à ça:
+Ainsi lorsqu'on écrit un script, la première chose à faire est
+de le commenter, **avant même l'écriture d'une seule ligne de vrai code**.
+On pourrait rajouter au début de chaque script qu'on écrit la ``docstring`` suivante:
 
 .. code-block:: python
 
@@ -28,10 +26,10 @@ Cela pourrait ressembler à ça:
     Utilisation: Décrire comment utiliser le script.
 
     Références: On peut rajouter ici des références utiles
-    qu'on a trouvées sur internet.
+    (liens internet par exemple).
 
     Dépendances: La version de Python et les dépendances
-    qu'on imagine utiliser
+    sur lesquelles le script va s'appuyer.
     exemple: python 3.7, pandas 0.25
 
     Historique:
@@ -45,12 +43,12 @@ PEP8
 est très largement répandue.
 
 Appliquer ``PEP8``, c'est prendre de bonnes habitudes et 
-se faciliter la lecture du code qu'on peut sur internet, 
-qui dans la majorité des cas suit ``PEP8``.
+se faciliter la lecture du code qu'on peut trouver sur internet, 
+qui dans la majorité des cas suit ce guide.
 
-``PEP8`` est disponible `Link ici <https://www.python.org/dev/peps/pep-0008/>`_.
+Le guide ``PEP8`` est disponible `ici <https://www.python.org/dev/peps/pep-0008/>`_.
 
-Ecrire un script
+Écrire un script
 ----------------
 
 Un script Python est un simple fichier texte dont
@@ -60,17 +58,28 @@ l'extension est ``.py``. Par exemple, le fichier
 Pour écrire du code dans un script Python, on peut
 utiliser un éditeur de texte simple comme *Notepad*.
 Des éditeurs plus évolués comme *Notepad++* 
-permettent de changer la
-couleur du texte en fonction de ce qu'il représente.
+permettent de changer la couleur du texte en fonction de ce qu'il représente.
 On utilisera ``Spyder`` qui est un logiciel dédié
 à l'écriture du code en Python.
 
 Exécuter un script
 ------------------
 
-On peut exécuter un script Python depuis la **Command Prompt**.
-La commande ``python parsefile.py`` va exécuter le code
-contenu dans le fichier ``parsefile.py``.
+On peut exécuter un script Python depuis l'**Anaconda Prompt**. Il faudra d'abord s'assurer que l'on se trouve
+bien dans un environnement **conda** permettant d'exécuter le script. On activera l'environnement avec:
+
+   .. code::
+  
+       conda activate parser_env
+
+La commande suivante va exécuter le code contenu dans le fichier ``parsefile.py`` avec la version de **Python**
+installée dans l'environnement *parser_env*. Il faudra que les dépendances du script (**pandas** par exemple)
+soient installées au préalable dans l'environnement (``conda install pandas``).
+
+   .. code::
+  
+       python parsefile.py
+
 
 Si le fichier contient des données d'entrée à adapter
 suivant son application, on peut *hard-coder* ces données,
@@ -80,7 +89,9 @@ Le contenu du script pourrait ressembler à cela:
 
 .. code-block:: python
 
+    ####### INPUT DATA #########
     INPUTFILE = "inputfile.txt"
+    ############################
     do_something(INPUTFILE)
     ...
 

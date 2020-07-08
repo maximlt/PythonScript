@@ -22,11 +22,11 @@ Python dans leur méthode de travail.
 Les informations fournies dans le tutoriel sont adaptées à la configuration 
 suivante:
 
-* Système d'exploitation (OS): **Windows** [7/10]
-* Gestionnaire de packages et d'environnement: **Conda** [>=4.7]
-* Environnement de développement (IDE): **Spyder** [>=4]
-* Langage: **Python 3** [CPython >=3.7]
-* Packages: **Numpy** [>=1.16], **pandas** [>=0.25], **Matplotlib** [>=3.1]
+* Système d'exploitation (OS): **Windows** [7 ou 10]
+* Gestionnaire de packages et d'environnement: **Conda** [≥ 4.7]
+* Environnement de développement (IDE): **Spyder** [≥ 4]
+* Langage: **Python 3** [CPython ≥ 3.7]
+* Packages: **Numpy** [≥ 1.16], **pandas** [≥ 0.25], **Matplotlib** [≥ 3.1]
 
 **A part Windows, tous les logiciels utilisés dans le tutoriel sont
 gratuits et open-source**. Leurs auteurs et contributeurs sont remerciés

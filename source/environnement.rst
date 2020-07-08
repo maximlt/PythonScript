@@ -5,23 +5,24 @@ Mettre en place et savoir utiliser correctement son environnement
 de travail Python est **essentiel**. Celui-ci comprend:
 
 * **Internet**: bien connaître les sites majeurs (StackOverflow, GitHub, etc.)
-  permettant de récupérer des informations, du code, et de résoudre les bugs
-  rencontrés, et trouver des ressources pour apprendre Python.
+  permettant de récupérer des informations, du code, de résoudre les bugs
+  rencontrés et trouver des ressources pour apprendre Python.
 * Invite de commande (**Command Prompt**): même si l'usage de cet utilitaire
   Windows n'est ni intuitif ni esthétique, son maniement basique
   se révèle être bien utile pour le contrôle de Python et de ses utilitaires.
+  (On pourra aussi utiliser **PowerShell** ou **Terminal**).
 * Gestionnaire d'environnement (*Environment Manager*): **conda** permet de
-  gérer les différentes versions de Python et de ses dépendances dont nous
+  gérer les différentes versions de Python et des dépendances dont nous
   avons besoin pour un exécuter un script Python.
 * Gestionnaire de package (*Package Manager*): **conda** permet aussi de gérer
   l'installation de packages; **pip** est un utilitaire effectuant la même
   chose et très présent dans le monde Python.
-* Environnement de développement (*IDE*): **Spyder** est un IDE plutôt taillé
+* Environnement de développement (*IDE* pour *Integrated Development Environment*): **Spyder** est un IDE plutôt taillé
   pour des applications scientifiques, certaines de ses fonctionnalités
   le rendent particulièrement appropriés pour l'apprentissage de Python et
   l'écriture rapide de scripts.
 * Terminal Python: du code **Python** peut être exécuté directement
-  dans un terminal en *mode interactif*, cela permet de tester
+  dans un terminal en *mode interactif*, ligne par ligne, cela permet de tester
   rapidement des petits morceaux de code (copier/coller depuis un
   site internet par exemple) pour répondre aux questions qu'on peut
   se poser lorsqu'on apprend le langage ou lorsqu'on écrit un script.
@@ -34,7 +35,7 @@ Stack Overflow
 
 Des recherches Google vont très souvent aboutir à des pages d'un site de
 questions/réponses appelés **Stack Overflow (SO)**. Python étant un langage
-populaire, la plupart des questions que vous allez vous posez ont déjà été
+populaire, la plupart des questions que vous allez vous poser ont déjà été
 posées sur ce site (si ce n'est pas le cas, vous vous posez peut-être une
 mauvaise question).
 
@@ -95,7 +96,7 @@ de **Git**, **GitHub** est le site d'hébergement de projets informatique le
 plus utilisé (GitLab, BitBucket, SourceForge). Il permet à tout un chacun
 d'héberger gratuitement un projet informatique en ligne.
 
-Enormément de projets open-source sont hébergés sur **GitHub**, dont
+Énormément de projets open-source sont hébergés sur **GitHub**, dont
 `Python <https://github.com/python/cpython>`_ lui-même, `conda <https://github.com/conda/conda>`_,
 `pip <https://github.com/pypa/pip>`_, `Spyder <https://github.com/spyder-ide/spyder>`_,
 `pandas <https://github.com/pandas-dev/pandas>`__, `QGIS <https://github.com/qgis/QGIS>`_, etc.

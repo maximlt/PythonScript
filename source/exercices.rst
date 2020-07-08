@@ -23,13 +23,13 @@ est décrit dans un bloc comme le suivant:
 La première ligne marque le début du bloc de définition
 d'un *culvert*.
 Le nom de la *branch* à laquelle appartient le *culvert* défini est
-définie sur la deuxième ligne, le nom du *culvert* sur
+défini sur la deuxième ligne, le nom du *culvert* sur
 la troisième ligne. La quatrième ligne contient une liste
-de 6 paramètres du culvert: type, diameter, length, manning,
-upstream chainage, upstream invert.
+de 6 paramètres du culvert: *type*, *diameter*, *length*, *manning*,
+*upstream chainage*, *upstream invert*.
 La cinquième ligne marque la fin du bloc de définition.
 
-Le fichier log peut être téléchargé `ici <https://github.com/maximlt/PythonScript/tree/master/exercices>`_.
+Le fichier log peut être téléchargé `ici <https://raw.githubusercontent.com/maximlt/PythonScript/master/exercices/culvert_logfile.txt>`_.
 
 Deux scripts sont à créer. Le premier s'occupera de:
 

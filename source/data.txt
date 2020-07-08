@@ -1,0 +1,5 @@
+spname,age,gender
+Sarah,27,F
+Bob,28,M
+Rachel,24,F
+Bill,22,M

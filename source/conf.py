@@ -66,4 +66,3 @@ html_static_path = ['_static']
 
 # To allow errors in a notebook
 nbsphinx_allow_errors = True
-

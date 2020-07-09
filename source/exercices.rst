@@ -1,7 +1,10 @@
-Exercice
-========
+Exercices
+==========
 
-L'exercice proposé consiste à analyser un fichier *log*. Ce
+Récupération d'informations dans un fichier et analyse
+--------------------------------------------------------
+
+L'exercice proposée consiste à analyser un fichier *log*. Ce
 genre de fichier contient souvent beaucoup de données qui
 sont difficiles à lire et analyser directement. Le script à
 coder va s'occuper d'extraire le contenu du fichier et
@@ -29,7 +32,7 @@ de 6 paramètres du culvert: *type*, *diameter*, *length*, *manning*,
 *upstream chainage*, *upstream invert*.
 La cinquième ligne marque la fin du bloc de définition.
 
-Le fichier log peut être téléchargé `ici <https://raw.githubusercontent.com/maximlt/PythonScript/master/exercices/culvert_logfile.txt>`_.
+Le fichier log peut être téléchargé `ici <https://raw.githubusercontent.com/maximlt/PythonScript/master/exercices/loganalysis/culvert_logfile.txt>`__.
 
 Deux scripts sont à créer. Le premier s'occupera de:
 
@@ -52,4 +55,26 @@ Le deuxième script s'occupera de:
 * enregistrer les données (incluant les données transformées et 
   les données ajoutées) dans un fichier au format CSV
 
-Une solution à l'exercice est proposée `ici <https://github.com/maximlt/PythonScript/tree/master/exercices/solution>`_.
+Une solution à l'exercice est proposée `ici <https://github.com/maximlt/PythonScript/tree/master/exercices/loganalysis/solution>`__.
+
+Ajout de texte à un fichier PDF
+--------------------------------
+
+Ce deuxième exercice consiste à ajouter du texte sur chaque page d'un fichier PDF.
+Les données à rajouter sont lues depuis un fichier CSV, il s'agit d'un numéro et 
+d'une description. Le package à utiliser pour effectuer l'opération sur le fichier PDF
+est `PyMuPDF <https://pymupdf.readthedocs.io/en/latest/>`__.
+
+Le script à créer devra donc:
+
+* lire le fichier CSV pour en extraire les données,
+* enregistrer un nouveau fichier PDF agrémenté du texte à rajouter.
+
+Les données nécessaires à l'exercice proposé sont disponibles `ici <https://github.com/maximlt/PythonScript/tree/master/exercices/modifpdf>`__:
+
+* le fichier PDF est composé de trois pages qui affichent des formes différentes (rectangle, triangle et un cercle),
+* le fichier CSV contient la description de ces formes et un identifiant.
+
+L'objectif pratique est d'ajouter en haut de chaque page l'identifiant et la description de la forme.
+
+Une solution à l'exercice est proposée `ici <https://github.com/maximlt/PythonScript/tree/master/exercices/modifpdf/solution>`__.

@@ -1,5 +1,5 @@
 Installation
-============
+=============
 
 Dans un environnement scientifique, il est souvent recommandé d'installer Python et les packages
 que l'on souhaite utiliser grâce à **conda**. Il est possible d'installer deux versions différentes:
@@ -37,14 +37,14 @@ La procédure pour installer **Miniconda**, **Spyder** et créer des environneme
       :alt: Anaconda Prompt
 
 3. Dans la console **Anaconda Prompt**, exécuter la commande suivante pour installer **Spyder**
-   dans un environnement dédié nommé *spyder* dans lequel se trouve la version *3.7* de **Python**.
+   dans un environnement dédié nommé *spyder_env* dans lequel se trouve la version *3.7* de **Python**.
    **pandas** est installé pour permettre au *Variable Explorer* de **Spyder** de visualiser 
    des *DataFrame*. Plus d'information est disponible sur le 
    `Wiki de Spyder <https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder>`_ à ce sujet.
 
    .. code::
   
-       conda create -n spyder python=3.7 spyder pandas
+       conda create -n spyder_env python=3.7 spyder pandas
 
 4. Dans la console **Anaconda Prompt**, exécuter la commande suivante pour installer un environnement avec
    les packages que l'on souhaite utiliser pour réaliser une tâche. L'exemple ci-dessous crée un environnement
@@ -69,7 +69,7 @@ L'installation ci-dessus a les effets suivants:
 
 * Des raccourcis pour la console **Anaconda Prompt** et l'IDE **Spyder** sont disponibles dans le menu *Démarrer* de *Windows*,
 * Trois environnements (exécuter ``conda info --envs`` dans l'**Anaconda Prompt** pour lister les environnement installés) ont été créés:
-  *base*, *spyder* et *gis*.
+  *base*, *spyder_env* et *gis*.
 * **Spyder** est paramétré de tel sorte qu'il est connecté à l'environnement *gis* et a donc accès aux packages
   qu'il contient tel que **geopandas**.
 

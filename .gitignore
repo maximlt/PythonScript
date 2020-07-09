@@ -1,7 +1,3 @@
-build
-.vscode
 dev.txt
 *\.ipynb_checkpoints
 __pycache__/
-TODOs.txt
-/source/_build

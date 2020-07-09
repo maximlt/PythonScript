@@ -44,17 +44,17 @@ expérimentés qui passent du temps à rédiger des réponses claires et complè
 Surtout lorsque l'on débute (mais pas seulement), il est très fréquent d'avoir
 recours à ce site pour trouver rapidement une information précise. Il est même
 possible de copier directement le code que l'on voit sur le site dans un
-script ou interpréteur Python pour le tester directement. Ainsi, il est
+script ou interpréteur Python pour le tester. Ainsi, il est
 possible d'élaborer un script en faisant des copier/coller de codes postés sur
-**SO**. Même si cette pratique ("stackoverflow programming") n'est pas des
-plus recommandées, il est en effet important de comprendre un minimum le code
-que l'on utilise, elle est très efficace.
+**SO**. Cette pratique ("stackoverflow programming") est très efficace mais doit être
+utilisée avec parcimonie, il est en effet important de comprendre un minimum le code
+que l'on utilise.
 
 
 Voici un exemple de question/réponse trouvé sur **SO** après avoir cherché
 dans Google ``python slice notation``. Le nombre ``2886`` à gauche est un
 indicateur de la qualité de la question. En bas à droite, on peut voir que
-la question a été posée en 2009 par l'OP (Original Poster) ``Simon``.
+la question a été posée en 2009 par l'OP (*Original Poster*) ``Simon``.
 
 .. image:: images/so_question.png
    :scale: 50 %
@@ -83,11 +83,10 @@ l'évolution d'un projet dont le nombre de contributeurs peut être très grand
 (des milliers de personnes). Une des particularités de **Git** est qu'il
 s'agit d'un système distribué: un contributeur peut travailler et enregistrer
 les changements qu'il a apportés au projet chez lui, puis les enregistrer
-au niveau distribué du système. Ce niveau distribué peut être un serveur
-internet.
+au niveau distribué du système, comme un serveur internet.
 
 Même s'il existe d'autre logiciel de gestion de versions (Subversion,
-Mercurial), **Git** est de loin le plus utilisé.
+Mercurial), **Git** est de loin le plus utilisé actuellement.
 
 **GitHub** est un site internet qui utilise **Git** pour assurer la gestion
 de versions des projets informatiques qu'il héberge. En plus de cela, il
@@ -101,19 +100,19 @@ d'héberger gratuitement un projet informatique en ligne.
 `pip <https://github.com/pypa/pip>`_, `Spyder <https://github.com/spyder-ide/spyder>`_,
 `pandas <https://github.com/pandas-dev/pandas>`__, `QGIS <https://github.com/qgis/QGIS>`_, etc.
 
-L'intérêt de ce site dans l'écriture d'un script est double:
+L'intérêt de ce site pour l'écriture d'un de nos scripts est double:
 
 * Découvrir facilement de nombreux projets afin de voir si ce que l'on
   recherche à faire avec notre script n'a pas déjà été écrit et publié.
-  Si oui, on pourrait réutiliser le code en question (vérifier la licence).
+  Si oui, on pourrait réutiliser le code en question (après avoir vérifié la licence).
 * Avoir accès à du code Python de bonne qualité afin d'apprendre et de s'en
   inspirer.
 
 L'exemple ci-dessous montre le code inclus dans le module ``timeit.py`` de
-Python. On veut voir en haut à droit le nombre ``26,162`` de Stars que le
+Python. On veut voir en haut à droit le nombre ``26,162`` de **Stars** que le
 projet a. Ce nombre, élevé, correspond au nombre de personnes qui suivent/
 sont intéressés par le projet. Il est un bon indicateur de sa qualité. A
-l'inverse, un projet avec quelques Stars seulement pourra contenir du code
+l'inverse, un projet avec quelques Stars seulement pourrait contenir du code
 de moins bonne qualité.
 
 .. image:: images/github.png
@@ -123,13 +122,13 @@ de moins bonne qualité.
 
 NB: Le module ``timeit.py`` a eu 15 contributeurs différents depuis sa
 création. Le premier contributeur, dont l'image est la première sur la
-gauche, est Guido van Rossum, le créateur de Python. 
+gauche, est *Guido van Rossum*, le créateur de Python. 
 
 Documentations officielles
 **************************
 
-Python
-######
+Documentation de Python
+#######################
 
 La documentation officielle de Python est une ressource importante et
 relativement facile à aborder. Elle est disponible pour les différentes
@@ -158,7 +157,7 @@ que ces packages contiennent et des exemples d'applications.
 * `Rasterio <https://rasterio.readthedocs.io/en/stable/>`_
 * `Matplotlib <https://matplotlib.org/>`_
 * `Bokeh <https://bokeh.pydata.org/en/latest/>`_
-* ...
+* etc.
 
 
 Cheat Sheets
@@ -166,21 +165,22 @@ Cheat Sheets
 
 Les **Cheat Sheets** sont des fiches qui synthétisent les informations les
 plus importantes afin d'utiliser un logiciel, un package, etc. Voici une
-liste (non exhaustive) de **Cheat Sheets**:
+courte liste de **Cheat Sheets**:
 
-* TODO: En ajouter d'autres.
 * `pandas <http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_
-* `conda <https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html>`_
+* `conda <https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html>`__
+* `matplotlib <https://github.com/matplotlib/cheatsheets>`__
+* etc.
 
 
 Tutoriels
 *********
 
-Les tutoriels (*tutorial*) sont omniprésents sur internet. Lorsqu'on commence
+Les tutoriels (*tutorials*) sont omniprésents sur internet. **Lorsqu'on commence
 à utiliser un nouveau logiciel/package, il est recommandé de réaliser
-**d'abord** un tutoriel dédié. Cela permet de comprendre le fonctionnement
+d'abord un tutoriel dédié.** Cela permet de comprendre le fonctionnement
 général de l'outil et d'en maîtriser les bases. Même s'il est des fois
-difficile d'accorder du temps à cette étape, elle est bénéfique sur le long.
+difficile d'accorder du temps à cette étape, elle est bénéfique sur le long terme.
 
 Une difficulté, toutefois, est de s'y retrouver dans la multitude des
 tutoriels à disposition. La popularité de Python est telle que le nombre
@@ -191,7 +191,7 @@ lorsqu'on a besoin d'une réponse rapide.
 Pour trouver un bon tutoriel, il est recommandé de chercher des tutoriels:
 
 * en **Anglais**: même si  un tutoriel en Français
-  peut constituer une entrée douce en matière, il y a plus de chance de
+  peut constituer une douce entrée en matière, il y a plus de chance de
   trouver des tutoriels en Anglais plus complets et plus à jour. Comme le
   langage Python est lui-même en Anglais, que le vocabulaire des packages
   est aussi en Anglais, l'apprentissage par des tutoriels en Anglais
@@ -222,8 +222,8 @@ affiché directement sous le code. Ces fichiers sont visualisables et
 éditables directement dans un navigateur (Chrome, Firefox, etc.). Ils
 constituent donc un très bon moyen pour:
 
-* présenter une librairie sous la forme d'un tutoriel
-* analyser des données
+* présenter une librairie sous la forme d'un tutoriel,
+* analyser des données.
 
 .. image:: images/notebook.png
    :scale: 50 %
@@ -233,7 +233,7 @@ constituent donc un très bon moyen pour:
 Les Jupyter Notebooks ont les caractéristiques suivantes:
 
 * Ils ont l'extension **.ipynb** qui provient du nom *IPython Notebook*,
-  le nom initial de ces notebooks
+  le nom initial de ces notebooks,
 * Pour les ouvrir, il faut utiliser l'application du même nom
   **Jupyter Notebook**, ou sa nouvelle version **JupyterLab**. L'ouverture
   basique d'un notebook à partir d'une de ces applications entraîne
@@ -247,13 +247,13 @@ Les Jupyter Notebooks ont les caractéristiques suivantes:
   écrit dans le langage de balise **Markdown**. Ce langage permet de
   mettre facilement en forme le document (titre, police en gras, etc.). Les
   cellules peuvent aussi contenir du code Python. Lorsque le code est exécuté,
-  le résultat (output) est affiché juste en dessous de la cellule.
+  le résultat (*output*) est affiché juste en dessous de la cellule.
 
 Les notebooks sont souvent partagés directement sur GitHub, plusieurs
 approches sont possibles afin de les utiliser:
 
 * On peut **directement télécharger** les notebooks sur GitHub. Il vaut mieux
-  télécharger le répertoire (repo) complet, si les notebooks s'appuient
+  télécharger le répertoire (*repo* pour *repository*) complet, si les notebooks s'appuient
   sur des données d'entrée enregistrées dans d'autres dossiers. Il sera
   peut-être nécessaire de créer un nouvel environnement *conda* et d'installer
   les packages nécessaires au fonctionnement des notebooks.
@@ -267,7 +267,7 @@ approches sont possibles afin de les utiliser:
   et permet de les exécuter directement sur internet, il n'est donc pas
   nécessaire d'installer quoi que ce soit. Si une petite image (badge)
   binder est visible sur un répertoire GitHub, cela veut dire que les
-  notebooks qu'il contient sont hébergés sur binder.
+  notebooks qu'il contient sont hébergés sur *binder*.
 
 Pour ouvrir un notebook, il faut exécuter la commande ``jupyter notebook``
 (ou ``jupyter lab``) dans le dossier où se trouve le ou les fichiers *.ipynb*.
@@ -281,12 +281,12 @@ Autres ressources
   des enregistrements de conférence (PyCon, PyData, etc.).
 * Certains sites (DataCamp) permettent d'exécuter du code directement
   sur internet, sans avoir besoin d'installer quoi que ce soit sur son PC.
-* Livres: il y a beaucoup de livres sur Python et son monde. Un qui pourra
+* Livres: il y a beaucoup de livres sur Python et son écosystème. Un qui pourra
   nous intéresser est `Automating the Boring Stuff with Python <https://automatetheboringstuff.com/>`_,
   qui est visible gratuitement.
 * `Practical Business Python <https://pbpython.com/>`_: un blog avec des articles
   sur la manière d'intégrer Python dans les entreprises.
-* `Cours en français de l'Université Paris Diderot <https://python.sdv.univ-paris-diderot.fr/>`_:
+* `Cours en français de l'Université Paris Diderot <https://python.sdv.univ-paris-diderot.fr/>`_.
 
 
 Command Prompt
@@ -295,7 +295,6 @@ Command Prompt
 La **Command Prompt** est un programme qui permet d'interagir en ligne
 de commande avec Windows. Pour l'ouvrir, il faut appuyer sur la touche
 ``Windows``, taper ``cmd``, et appuyer sur la touche ``Entrée``.
-Une fenêtre noire s'affiche sur l'infini.
 
 .. image:: images/cmd.png
    :scale: 70 %
@@ -303,31 +302,30 @@ Une fenêtre noire s'affiche sur l'infini.
 
 Le texte à gauche du symbole ``>`` indique dans quelle dossier la Command
 Prompt est active. Le programme dispose de commandes internes, il suffit
-de taper ``help`` pour en voir une liste. Pour accéder l'aide d'une
-commande quelconque, il faut rajouter l'option ``/?`` après son nom (ex:
+de taper ``help`` pour en voir une liste. Pour accéder à l'aide d'une
+commande quelconque, il faut rajouter l'option ``/?`` après son nom (e.g.:
 ``cd /?``).
 
 Seules quelques commandes nous seront utiles. La première est ``cd`` (pour
-Change Directory), elle
-permet de changer le répertoire en cours. Voici comment l'utiliser:
+*Change Directory*), elle
+permet de changer le répertoire actif. Voici comment l'utiliser:
 
-* ``cd C:\ProgramData`` pour aller dans le répertoire **ProgramData**
+* ``cd C:\ProgramData`` pour aller dans le répertoire **ProgramData**,
 * ``cd ..`` pour aller dans le répertoire **Users**, ``..`` signifie
-  le répertoire parent, ``.`` signifie le répertoire en cours.
-* ``cd ..\..`` pour aller à la racine du disque **C:**
+  le répertoire parent ("le répertoire du dessus"), ``.`` signifie le répertoire en cours/actif,
+* ``cd ..\..`` pour aller à la racine du disque **C:**,
 * ``cd "C:\Program Files"`` pour aller dans le répertoire **Program Files**,
-  les guillemets sont nécessaires pour les liens qui incluent des espaces
-* ``E:`` pour aller dans le disque **D:** (``cd E:`` ne fonctionne pas,
-  mais ``cd /D E:`` fonctionne)
+  les guillemets sont nécessaires pour les liens qui incluent des espaces,
+* ``cd /D E:\Data`` pour aller dans le dossier **Data** du disque **E:** (``cd E:\Data`` ne fonctionne pas, il faut rajouter  **/D**).
 
 .. note::
 
-    Après avoir tapé ``cd`` ou ``cd Document\``, appuyer sur
+    Après avoir tapé ``cd`` ou ``cd Documents\``, appuyer sur
     la touche ``Tab`` plusieurs fois pour faire défiler les dossiers
     disponibles (dans le deuxième cas, les dossiers disponibles dans
     **Documents** sont affichés). L'utilisation de la touche ``Tab``
     (**autocompletion**) est possible après n'importe quelle commande, elle
-    permet aussi de faire défiler les fichiers lorsque pertinent.
+    permet aussi de faire défiler les fichiers inclus dans le dossier.
 
 La deuxième est ``dir`` (pour *DIRectory*), elle permet d'afficher la
 liste des dossiers des fichiers et dossiers présents dans le dossier
@@ -354,11 +352,12 @@ on peut l'arrêter en appuyant sur ``Ctrl + C``.
     pour une liste des raccourcis disponibles.
 
 La **Command Prompt** permet aussi d'exécuter des programmes présents dans
-le **PATH**. Le **PATH** est une variable d'environnement sous la forme
-d'une liste de dossiers. Lorsque l'on exécute quelque chose qui n'est pas 
+le **PATH**. Le **PATH** est une variable d'environnement qui liste un ensemble de dossiers.
+Lorsque l'on exécute quelque chose qui n'est pas 
 une commande de la **Command Prompt**, le programme va chercher dans
 les dossiers du **PATH** s'il existe un fichier exécutable (*.exe*, *.bat*
-...) du même nom.
+...) du même nom pour l'exécuter. S'il n'est pas trouvé, le message d'erreur suivant
+s'affiche: ``'blob' n'est pas reconnu en tant que commande interne ou externe, un programme exécutable ou un fichier de commandes.``
 
 .. tip::
 
@@ -385,17 +384,19 @@ l'explorateur de fichiers, on peut:
 * taper ``cmd`` dans la barre d'adresse et appuyer sur la touche
   ``Entrée``. Cette méthode est intéressante car elle fonctionne
   avec tous les exécutables du **PATH** de Windows. ``calc`` ouvrera
-  la calculatrice. ``python`` (une fois installé) lancera l'interpréteur
-  Python dans le dossier courant
-* appuyer sur la touche ``ctrl``, faire un clic droit dans la fenêtre
-  pour ouvrir un menu contextuel et cliquer sur *Ouvrir avec l'invite
-  de commande ici**
+  la calculatrice. ``python`` (si installé globalement) lancera l'interpréteur
+  Python dans le dossier courant,
+* appuyer sur la touche ``ctrl``, faire un clic droit dans la fenêtre de l'explorateur
+  pour ouvrir un menu contextuel et cliquer sur **Ouvrir avec l'invite
+  de commande ici**.
 
 .. tip::
 
     Même si la **Command Prompt** est suffisante pour ce qu'on a
-    à faire, on peut utiliser à la place le terminal **PowerShell**
-    , qui est plus récent, plus complet et un peu plus coloré.
+    à faire, on peut utiliser à la place le terminal **PowerShell**,
+    qui est plus récent, plus complet et un peu plus coloré. Le logiciel **Terminal**
+    disponible sous *Windows 10* peut aussi être installé pour faciliter l'utilisation
+    de terminaux (**Command Prompt**, **PowerShell**, etc.).
 
 conda et pip
 ------------
@@ -404,41 +405,40 @@ Leurs objectifs
 ***************
 
 **Python** est un langage qui est doté d'un riche écosystème de packages.
-Quand on code en **Python**, on est alors invité à réutiliser ces packages
-afin de ne pas réinventer la roue. Mais cela n'est pas si simple que cela
+Quand on code en **Python**, on est alors amené à réutiliser ces packages
+afin de ne pas réinventer la roue. Mais ce n'est pas si simple que cela
 pour les raisons suivantes:
 
-* il faut pouvoir installer facilement ces packages
+* il faut pouvoir installer facilement ces packages,
 * il existe plusieurs versions de **Python**, certains packages ne
-  fonctionnent donc pas sur la ou les dernières versions disponibles
-* les packages ont eux aussi plusieurs versions, et comme ils dépendent
+  fonctionnent donc pas sur la ou les dernières versions disponibles,
+* les packages ont eux aussi plusieurs versions et dépendent
   les uns des autres (**Pandas**, par exemple, dépend de **Numpy** et
   de **Matplotlib**), il est nécessaire de s'assurer qu'on installe
-  la bonne combinaison de versions
+  la bonne combinaison de versions,
 * certains packages, notamment les packages scientifiques, ne sont pas
-  écrits qu'en Python (pure Python), mais aussi en d'autres langages de
-  plus bas niveaux (**C**, **Fortran**, etc.) afin d'accélérer les calculs:
-  cela complexifie la distribution et l'installation de ces packages-là
+  écrits qu'en Python (*pure Python*), mais aussi en d'autres langages de
+  plus bas niveaux (*C*, *Fortran*, etc.) afin d'accélérer les calculs:
+  cela complexifie la distribution et l'installation de ces packages-là.
 
 **conda** est un logiciel qui permet d'adresser l'ensemble de ces
 difficultés:
 
 * il permet d'installer des packages Python en les téléchargeant sur
-  internet
+  internet,
 * il peut créer des environnements virtuels. On peut ainsi créer
-  un environnement dans lequel Python 3.7 est installé, et un autre dans
-  lequel c'est Python 3.6 qui est installé. Ces deux environnements sont
+  un environnement dans lequel *Python 3.7* est installé, et un autre dans
+  lequel c'est *Python 3.6* qui est installé. Ces deux environnements sont
   totalement isolés l'un de l'autre. **conda** comprend par défaut un
-  environnement virtuel appelé **base**.
-* il vérifie que les versions des packages installées sont bien cohérentes
+  environnement virtuel appelé **base**,
+* il vérifie que les versions des packages installés sont bien cohérentes
   les unes avec les autres. Comme on peut avoir un grand nombre de
-  packages, cette vérification prend des fois du temps.
+  packages, cette vérification prend parfois du temps,
 * les packages téléchargeables par **conda** sont en fait déjà
   pré-installés (*build*), leur installation est donc directe même si les
   packages sont complexes (comme *Numpy*).
 
-D'autres outils permettent de gérer
-des environnements virtuels (*virtualenv*),
+D'autres outils permettent de gérer des environnements virtuels (e.g. *virtualenv*),
 l'avantage de **conda** est que plusieurs fonctionnalités sont encapsulées
 dans un seul et même programme, c'est pourquoi nous l'utiliserons
 principalement.
@@ -463,9 +463,9 @@ principalement.
 **conda** et permet de télécharger des packages sur le site
 `PyPi <https://pypi.org/>`_. Il s'agit du site officiel de dépôt de
 package Python. Tous les packages présents sur ce site sont
-téléchargeables avec **pip**. Il y en a aujourd'hui (08/2019) plus de
-193 000. Lorsqu'un nouveau package est installé avec **pip**, **pip**
-ne vérifie pas aussi précisément que toutes les relations de dépendance
+téléchargeables avec **pip**. Il y en a aujourd'hui (07/2020) plus de
+**245 000**. Lorsqu'un nouveau package est installé avec **pip**, **pip**
+ne vérifie pas aussi précisément que **conda** que toutes les relations de dépendance
 entre l'ensemble des packages installés sont bien satisfaites.
 
 Installation
@@ -479,28 +479,28 @@ qui sont des distributions qui incluent plusieurs logiciels et librairies.
 **Anaconda** est la distribution complète, elle intègre directement
 **conda** et une interface graphique **Anaconda Navigator**.
 L'environnement *base*, qui inclut *Python*, comprend déjà de nombreux
-packages utiles pour la data science. Installer la distribution **Anaconda**
+packages utiles pour la *data science*. Installer la distribution **Anaconda**
 permet donc d'obtenir rapidement un outil de travail permettant d'écrire
 des scripts en Python. Cette distribution est toutefois lourde. **Miniconda**
 est le pendant minimal d'**Anaconda**, cette distribution-là comprend
 **conda**, **Python** et c'est à peu près tout. On installe ensuite
-manuellement les packages que l'on souhaite utiliser.
+manuellement les packages que l'on souhaite utiliser, de préférence dans de nouveaux environnements.
 L'entreprise **Anaconda** se charge aussi d'héberger le `site internet <https://anaconda.org/anaconda>`_
 à partir duquel les packages sont téléchargés par **conda**.
 
 * Installation de `**Miniconda** <https://docs.conda.io/en/latest/miniconda.html>`_
 * Installation d'`**Anaconda** <https://www.anaconda.com/distribution/#download-section>`_
 
-**pip** fait partie de l'installation de **Python**, il n'y a donc
+**pip** fait généralement partie de l'installation de **Python**, il n'y a donc
 aucune action particulière à effectuer pour l'installer.
 
 Utilisation
 ***********
 
 Nous utiliserons **conda** de préférence lorsque le package à installer
-est disponible (sur la *channel* *default* ou *conda-forge*).
+est disponible (sur la *channel default* ou *conda-forge*).
 Lorsque ce n'est pas le cas, nous utiliserons **pip** pour installer le
-package depuis **PyPi** (*pip* est bien intégré dans *conda*).
+package depuis **PyPi** (*pip* fonctionne assez bien directement dans *conda*).
 
 Pour vérifier si un package est téléchargeable avec **conda**, il suffit
 de le chercher sur le site d'`Anaconda <https://anaconda.org/>`__.
@@ -511,17 +511,19 @@ ces sites mais que le projet existe bien sur **GitHub**, on peut l'installer
 avec **pip** (voir la `documentation <https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support>`_).
 
 Il est préférable d'utiliser **conda** depuis l'**Anaconda Prompt** qui
-est installée automatiquement. Cet utilitaire fonctionne comme la
-**Command Prompt**, sauf qu'à son lancement l'environnement virtuel
+est installée automatiquement avec **Anaconda** ou **Miniconda**. Cet utilitaire fonctionne comme la
+**Command Prompt** (c'est en fait la **Command Prompt** configurée pour **conda**), sauf qu'à son lancement l'environnement virtuel
 **base** est automatiquement activé. Cela rend tous les programmes
 installés dans cet environnement (Python, pip, etc.) disponibles.
 
 .. note::
 
-    On peut aussi utiliser **conda**  directement depuis
-    la **Command Prompt**. Pour cela, on l'ouvre et on exécute
-    ``conda activate`` par activer l'environnement *base*, ou
-    ``conda activate myenv`` pour activer l'environnement *myenv*.
+    Suivant la configuration de l'installation d'**Anaconda** ou **Miniconda**,
+    il est possible que la commande ``conda`` soit disponible directement depuis
+    la **Command Prompt**. Cela est le cas si **conda** est ajouté au **PATH**. La
+    commande ``conda init`` permet de configurer la **Command Prompt** après installation
+    pour que l'environnement *base* de **conda** soit activé automatiquement au lancement
+    de la console.
 
 **conda** est un programme qui s'utilise en ligne de commande. Le
 principe est d'écrire ``conda`` suivi par une commande et les arguments/
@@ -529,38 +531,39 @@ paramètres de cette commande. Pour obtenir l'aide de *conda*,
 on peut exécuter ``conda -h`` ou ``conda --help``. Pour obtenir l'aide
 d'une commande particulière, on peut exécuter ``conda commande -h`` ou
 ``conda commande --help`` (ou *commande* est le nom d'une commande conda,
-comme *list*).
+comme *list* qui s'exécutera donc ``conda list``).
 
 .. note::
 
-    ``-h`` et ``--help`` sont des flags, ils déclenchent un comportement
+    ``-h`` et ``--help`` sont des *flags*, ils déclenchent un comportement
     particulier de **conda**, celui d'afficher l'aide. Il est fréquent
     de rencontrer des utilitaires en ligne de commande qui utilisent ce
-    même flag pour afficher l'aide.
+    même *flag* pour afficher l'aide.
 
 Voici une liste de commandes **conda** utiles:
 
-* ``conda update conda`` met à jour *conda*
+* ``conda update conda`` met à jour **conda**,
 * ``conda info --envs`` affiche la liste des environnements installés,
-  l'astérisque signale l'environnement actuellement activé
+  l'astérisque signale l'environnement actuellement activé,
 * ``conda create --name datascience`` crée un environnement nommé
   *datascience*.
   On peut spécifier au moment de la création d'un environnement ce qu'il
   doit contenir avec ``conda create -n datascience python=3.7 pandas``,
   cette commande stipule qu'on souhaite installer la version 3.7 de Python
-  ainsi que pandas, *conda* vérifie si cette combinaison est possible
-  et l'installe si oui
-* ``conda activate datascience`` active l'environnement *datascience*
+  ainsi que *pandas*, **conda** vérifie si cette combinaison est possible
+  et l'installe si oui,
+* ``conda activate datascience`` active l'environnement *datascience*,
 * ``conda list`` affiche tous les packages installés dans l'environnement
-  actif
+  actif,
 * ``conda env export > environment.yml`` exporte la liste des packages
-  installés et leur version dans le fichier *environment.yml*
+  installés et leur version dans le fichier *environment.yml*, il s'agit
+  d'une manière simple d'enregistrer la configuration d'un environnement, pour pouvoir
+  le partager à d'autres personnes par exemple,
 * ``conda remove pandas`` supprime *pandas* et les packages dont il
-  dépend s'ils n'ont pas d'autres dépendances.
-* ``conda deactivate`` désactive l'environnement *datascience* et
-  réactive l'environnement *base*
+  dépend s'ils n'ont pas d'autres dépendances,
+* ``conda deactivate`` désactive l'environnement actif (même *base*),
 * ``conda remove --name datascience --all`` supprime l'environnement
-  *datascience*
+  *datascience* ainsi que les fichiers d'installation.
 
 .. tip::
 
@@ -568,21 +571,15 @@ Voici une liste de commandes **conda** utiles:
     nécessaires à **conda** pour créer un environnement avec tous les
     packages tels que spécifiés dans le fichier. Si l'on dispose
     d'un tel fichier, il suffit d'exécuter
-    ``conda env create -f environment.yml``.
+    ``conda env create -f environment.yml`` pour recréer l'environnement.
 
 La liste des commandes **pip** qu'on utilisera est plus courte:
 
-* ``pip install pandas`` installe *pandas*
-* ``pip uninstall pandas`` désinstalle *pandas*
+* ``pip install pandas`` installe *pandas*,
+* ``pip uninstall pandas`` désinstalle *pandas*.
 
-Spyder
-------
-
-.. attention::
-
-    Les informations ci-dessous sont basées sur la **version 4 beta 4** de
-    **Spyder**. Elles seront mises à jour lorsque la première version
-    officielle de Spyder 4 sera disponible.
+L'éditeur Spyder
+-----------------
 
 .. tip:: 
 
@@ -590,11 +587,13 @@ Spyder
     pour le configurer en anglais, cela facilite les recherches Google.
 
 Présentation
-************
+*************
 
-**Spyder** peut être installé directement avec **conda**. Une fois installé,
-on le lance en cliquant sur le raccourci ajouté
-dans la barre de lancement de Windows, ou en exécutant ``spyder`` dans
+`Spyder <https://www.spyder-ide.org/>`__ peut être installé directement avec **conda** en exécutant ``conda install spyder``
+On privilégiera une installation de **Spyder** dans un environnement dédié, avec la commande
+``conda create -n spyder_env python=3.7 spyder pandas``.
+Une fois installé, on le lance en cliquant sur le raccourci ajouté
+dans la barre de lancement de *Windows*, ou en exécutant ``spyder`` dans
 l'environnement virtuel dans lequel il a été installé.
 
 .. image:: images/spyder.png
@@ -604,16 +603,15 @@ l'environnement virtuel dans lequel il a été installé.
 
 La fenêtre qui s'ouvre est composée de trois volets principaux.
 
-L'**éditeur** (editor) se trouve à gauche. C'est dans ce panneau qu'on
+L'**éditeur** (*editor*) se trouve à gauche. C'est dans ce panneau qu'on
 pourra écrire et enregistrer les scripts Python. On peut en fait y ouvrir
 n'importe quel type de fichier texte.
 
 En bas à droite se trouve la **console IPython**. **IPython** est
 un terminal *Python* interactif, plus complet que
-le terminal de base **Python**. On
-peut donc directement exécuter du code dans cette console.
+le terminal *Python* de base. On peut donc directement exécuter du code dans cette console.
 Lorsqu'on exécute du code écrit dans l'éditeur, ce code-là est en
-fait directement exécuté par la console IPython ouverte.
+fait directement exécuté par la console **IPython** ouverte.
 
 .. image:: images/spyder_editor_to_console.png
    :scale: 50 %
@@ -639,16 +637,17 @@ sélectionnant et en appuyant ensuite sur la touche ``F9``).
    :scale: 50 %
    :alt: Panneau historique de Spyder 
 
-En haut à droite se trouvent les panneaux **Help** (aide), **Files** (
-explorateur de fichiers), **Plots** (figures), **Find** (rechercher
-et remplacer) et **Variable explorer** (explorateur de variable).
+En haut à droite se trouvent les panneaux **Help** (*aide*), **Files**
+(*explorateur de fichiers*), **Plots** (*figures*), **Find** (*rechercher
+et remplacer*) et **Variable explorer** (*explorateur de variable*).
 
 Les panneaux **Variable explorer** et **Plots** sont particulièrement
 intéressants.
 
 Le **Variable explorer** permet d'inspecter les objets (i.e. variables) qui
 sont sont actifs dans la session actuelle. Un tableau affiche leur nom,
-leur type, leur taille et leur valeur. Dans l'exemple ci-dessous, on
+leur type, leur taille et leur valeur. On peut par exemple explorer les données
+que contient un ``DataFrame`` *pandas*. Dans l'exemple ci-dessous, on
 peut voir que la *string* *world* est visible dans le panneau.
 
 .. image:: images/spyder_variable_explorer.png
@@ -664,11 +663,6 @@ enregistrer sur le disque.
    :scale: 50 %
    :alt: Le panneau Plots de Spyder 
 
-.. attention::
-
-    Le panneau **Plots** est seulement disponible
-    à partir de la **version 4 de Spyder**.
-
 La barre d'adresse en haut à droite permet de configurer le *dossier
 en cours*, qui est aussi appelé *dossier de travail*.
 Par exemple, cela est utile lorsqu'on souhaite ouvrir un
@@ -682,13 +676,12 @@ fichier avec un lien relatif.
 
     Pour définir un dossier de travail en Python directement, on peut
     écrire les deux instructions suivantes:
-    ``import os; os.chdir(path\to\workingdirectory)``
+    ``import os; os.chdir(r"path\to\workingdirectory")``
 
 Raccourcis
 **********
 
-Les raccourcis permettent de se faciliter la vie. Voici
-une courte liste de raccourcis intéressants à connaître:
+Voici une courte liste de raccourcis **Spyder** bien utiles:
 
 +---------+---------------------+------------------------+
 | Context | Name                | Shortcut               |
@@ -723,7 +716,7 @@ une courte liste de raccourcis intéressants à connaître:
 .. tip::
 
     Le raccourci pour commenter n'est pas très pratique, on
-    peut le changer à ``Ctrl + :`` par exemple.
+    peut par exemple le changer pour ``Ctrl + :``.
 
 IPython
 *******
@@ -759,7 +752,7 @@ Workflow
 ********
 
 Lorsqu'on exécute du code écrit dans l'éditeur (avec ``F5`` pour
-exécuter la totalité du script ou ``F9`` pour exécuter qu'une ou
+exécuter la totalité du script ou ``F9`` pour n'exécuter qu'une ou
 plusieurs lignes), le code est exécuté dans la console **IPython**.
 Les objets créés (variables, fonctions, etc.) sont toujours **vivants**,
 ils sont réutilisables depuis la console **IPython**. Ils le sont donc
@@ -789,7 +782,8 @@ et itérative. Voici un **exemple de workflow** avec l'éditeur et la console:
     la prochaine ligne ``#%%`` est une cellule (*cell*). Le code
     d'une cellule peut être exécuté en appuyant sur ``Ctrl + Enter``.
     ``Shift + Enter`` effectue la même opération puis déplace
-    le curseur à la cellule suivante.
+    le curseur à la cellule suivante. Ce fonctionnement se rapproche de celui
+    d'un *notebook*.
 
 La mécanique éditeur/console et la possibilité d'exécuter seulement
 une partie du code (``F9``) permet aussi de **debugger** le code
@@ -798,18 +792,18 @@ manuellement et facilement.
 .. hint::
 
     **Spyder** intègre aussi un *debugger* interne. Il peut être utile
-    d'apprendre à se servir de cet outil, car il évite d'avoir à modifier
+    d'apprendre à se servir de cet outil car il évite d'avoir à modifier
     le code pour le débugger (on rajoute souvent des ``print()`` dans le
     code lorsqu'on l'inspecte manuellement) et permet de débugger plus
-    facilement de gros scripts. 
+    facilement du code complexe. 
 
 Terminal interactif Python
 --------------------------
 
 L'interpréteur **Python**, qui est le programme capable d'exécuter
 un script écrit en Python, a aussi un mode **interactif**. Pour lancer
-l'interpréteur dans ce mode, il suffit d'ouvrir un terminal (
-**Anaconda Command Prompt** ou **Command Prompt**) et taper ``python``.
+l'interpréteur dans ce mode, il suffit d'ouvrir un terminal
+**Anaconda Command Prompt** et taper ``python``.
 Du code Python peut maintenant être entré après le symbole ``>>>``
 et exécuter en appuyant sur ``Enter``. En d'autres mots, on vient
 d'allumer le moteur de Python, il attend maintenant nos instructions
@@ -834,11 +828,12 @@ de taper une nouvelle instruction.
    :scale: 65 %
    :alt: Hello world en mode interactif
 
-Pour quitter l'interpréteur interactif, on peut appuyer sur
-``Ctrl + Z + Enter`` ou taper ``quit()``.
+Pour quitter l'interpréteur interactif, on peut taper ``quit()`` ou
+appuyer sur ``Ctrl + Z + Enter``.
 
 L'interpréteur interactif Python a cependant quelques limites. Il
-n'affiche aucune couleur et n'a pas la fonctionnalité *autocompletion*.
+n'affiche aucune couleur et n'a pas la fonctionnalité *autocompletion* dans
+Windows.
 
 Un autre interpréteur interactif Python disponible est **IPython**.
 Pour le lancer, il suffit de taper ``ipython`` dans un terminal.
@@ -853,17 +848,16 @@ que le code entré est colorisé, cela en facilite la lecture.
 Lorsqu'on écrit du code dans ce terminal, l'appui sur la touche
 ``Tab`` montre les possibilités disponibles. On peut ensuite continuer
 à appuyer sur ``Tab`` (ou avec les flèches) pour naviguer dans les
-propositions faites et appuyer sur ``Enter`` pour en sélectionner une.
+propositions faites et appuyer sur ``Entrée`` pour en sélectionner une.
 
 .. image:: images/repl_ipython_autocompletion.png
    :scale: 65 %
    :alt: Autocompletion dans IPython
 
-Pour quitter l'interpréteur interactif **IPython**,
-on tape ``quit()``.
+Pour quitter l'interpréteur interactif **IPython** on tape ``quit()``.
 
 L'interpréteur **IPython** peut aussi être lancé dans sa propre fenêtre.
-Il suffit d'exécuter ``jupyter qtconsole`` dans un terminal.
+Il suffit d'exécuter ``jupyter qtconsole`` dans l'**Anaconda Prompt**.
 
 .. image:: images/repl_jupyterqtconsole.png
    :scale: 65 %
@@ -883,4 +877,3 @@ dans une nouvelle fenêtre).
 .. image:: images/repl_jupyterqtconsole_plot.png
    :scale: 65 %
    :alt: Inline Plot dans Jupyter qtconsole
-

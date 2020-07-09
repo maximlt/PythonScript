@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Tutoriel: Comment s'y prendre pour écrire des scripts en Python
-===============================================================
+================================================================
 
 **Python** est un langage de programmation avec lequel il est facile d'écrire
 des scripts. Ces scripts peuvent permettre d'automatiser des tâches répétées

@@ -11,8 +11,13 @@ Utilisation:
    backslashs)
 2. Exécuter le script avec  `python culvert_logparser.py`
 
+Dépendances:
+- python 3.7
+- pandas 1.0.5
+
 Historique:
 - ML (10/09/2019): Création du script
+- ML (09/07/2020): MAJ de la doc
 """
 # Les imports se placent par convention tout au début du fichier.
 # On importe pandas de la manière conventionnelle
@@ -21,7 +26,7 @@ import pandas as pd
 ###############################################################################
 ############################ Données d'entrée #################################
 ###############################################################################
-CULVERT_FILE_PATH ="culvert_logfile.txt"
+CULVERT_FILE_PATH = "culvert_logfile.txt"
 ###############################################################################
 
 # Indique visuellement le départ de l'exécution du script.

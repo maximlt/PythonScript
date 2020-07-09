@@ -1,5 +1,5 @@
 Écriture et exécution d'un script
-==================================
+===================================
 
 Le style
 --------
@@ -49,7 +49,7 @@ qui dans la majorité des cas suit ce guide.
 Le guide ``PEP8`` est disponible `ici <https://www.python.org/dev/peps/pep-0008/>`_.
 
 Écrire un script
-----------------
+-----------------
 
 Un script Python est un simple fichier texte dont
 l'extension est ``.py``. Par exemple, le fichier
@@ -59,13 +59,27 @@ Pour écrire du code dans un script Python, on peut
 utiliser un éditeur de texte simple comme *Notepad*.
 Des éditeurs plus évolués comme *Notepad++* 
 permettent de changer la couleur du texte en fonction de ce qu'il représente.
-On utilisera ``Spyder`` qui est un logiciel dédié
+On utilisera **Spyder** qui est un logiciel dédié
 à l'écriture du code en Python.
 
 Exécuter un script
-------------------
+-------------------
 
-On peut exécuter un script Python depuis l'**Anaconda Prompt**. Il faudra d'abord s'assurer que l'on se trouve
+Depuis Spyder
+*************
+
+On peut ouvrir un script Python dans **Spyder** puis l'exécuter:
+
+* Ligne par ligne avec la touche ``F9``,
+* Une sélection spécifique (une partie d'une ligne, plusieurs lignes, etc.) avec la touche ``F9``,
+* Une cellule encadrée par le symbole ``# %%`` avec la combinaison ``Ctrl + Entrée``,
+* Entièrement avec la touche ``F5`` ou en cliquant sur la flèche verte.
+
+
+Depuis l'Anaconda Prompt
+************************
+
+Il faut ouvrir la console **Anaconda Prompt** et s'assurer que l'on se trouve
 bien dans un environnement **conda** permettant d'exécuter le script. On activera l'environnement avec:
 
    .. code::
@@ -93,21 +107,50 @@ Le contenu du script pourrait ressembler à cela:
     INPUTFILE = "inputfile.txt"
     ############################
     do_something(INPUTFILE)
-    ...
 
 On peut aussi passer des arguments à la commande d'exécution
 du script avec, par exemple, la commande 
-``python parsefile.py inputfile.txt``. On peut récupérer
-les arguments passés de cette manière, ici ``inputfile.txt``
-directement depuis le code avec le module ``sys`` et son
+``python parsefile.py inputfile.txt``. Ici, ``inputfile.txt`` est un argument 
+supplémentaire qui sera utilisé par le script ``parsefile.py``. On peut récupérer
+ce genre d'argument directement depuis le code avec le module ``sys`` et son
 attribut ``argv``. Cet attribut est une ``list``, son 
-deuxième élément contient ``"inputfile.txt"``.
+deuxième élément contiendra ``"inputfile.txt"``.
 
 Le contenu de ce script pourrait ressembler à cela:
 
 .. code-block:: python
 
     import sys
+
+    # Lecture de l'argument passé à la ligne de commande
     inputfile = sys.argv[1]
+
     do_something(inputfile)
-    ...
+
+Depuis un fichier batch
+************************
+
+L'exemple ci-dessous montre comment adapter un fichier **batch** (extension en *.bat*)
+pour qu'il active un environnement conda, exécute un script Python et désactive conda.
+
+Une fois adapté (chemin vers le dossier d'installation de *Miniconda*, nom de l'environnement à activer et chemin du
+script à exécuter), on peut enregistrer ce fichier **batch** et l'exécuter directement depuis la **Command Prompt** (il
+n'est pas nécessaire de l'exécuter depuis l'**Anaconda Prompt**).
+
+
+.. code-block:: bat
+
+    @echo off
+
+    rem Chemin ver le dossier racine de Miniconda
+    set CONDAPATH=C:\path\to\Miniconda
+    rem Nom de l'environnement à activer (e.g. gis, datascience, etc.)
+    set ENVNAME=parsefile_env
+
+    call %CONDAPATH%\Scripts\activate.bat %CONDAPATH%\envs\%ENVNAME%
+
+    python parsefile.py
+
+    call conda deactivate
+    rem Désactive l'environnement base
+    call conda deactivate

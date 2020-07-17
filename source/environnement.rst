@@ -545,23 +545,21 @@ Voici une liste de commandes **conda** utiles:
 * ``conda update conda`` met à jour **conda**,
 * ``conda info --envs`` affiche la liste des environnements installés,
   l'astérisque signale l'environnement actuellement activé,
-* ``conda create --name datascience`` crée un environnement nommé
-  *datascience*.
-  On peut spécifier au moment de la création d'un environnement ce qu'il
-  doit contenir avec ``conda create -n datascience python=3.7 pandas``,
-  cette commande stipule qu'on souhaite installer la version 3.7 de Python
-  ainsi que *pandas*, **conda** vérifie si cette combinaison est possible
-  et l'installe si oui,
+* ``conda create --name datascience python=3.7 pandas`` crée un environnement nommé
+  *datascience* dans lequel on souhaite installer la version 3.7 de Python
+  ainsi que *pandas*, **conda** vérifie si cette combinaison est possible,
+  et l'installera si oui, en sélectionnant les versions compatibles les plus à jour,
 * ``conda activate datascience`` active l'environnement *datascience*,
+* ``conda install matplotlib`` installer *matplotlib* dans l'environnement actif (*datascience*)
 * ``conda list`` affiche tous les packages installés dans l'environnement
-  actif,
+  actif, 
 * ``conda env export > environment.yml`` exporte la liste des packages
   installés et leur version dans le fichier *environment.yml*, il s'agit
   d'une manière simple d'enregistrer la configuration d'un environnement, pour pouvoir
   le partager à d'autres personnes par exemple,
 * ``conda remove pandas`` supprime *pandas* et les packages dont il
-  dépend s'ils n'ont pas d'autres dépendances,
-* ``conda deactivate`` désactive l'environnement actif (même *base*),
+  dépend s'ils ne sont plus utiles à d'autres packages dans l'environnement,
+* ``conda deactivate`` désactive l'environnement actif (fonctionne aussi pour l'environnement *base*),
 * ``conda remove --name datascience --all`` supprime l'environnement
   *datascience* ainsi que les fichiers d'installation.
 
